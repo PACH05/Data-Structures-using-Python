@@ -1,4 +1,4 @@
-#Two Sum
+#Two Sum Problem
 
 class Solution(object):
     def twoSum(self, nums, target):
