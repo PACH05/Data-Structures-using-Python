@@ -1,18 +1,18 @@
-#Palindrome number check       
+# Palindrome number check
 
 def isPalindrome(S):
-		Stack=[]
-		pal=0
-		for i in S:
-		    Stack.append(i)
-		for char in S:
-		    if char == Stack.pop():
-		       pal = 1
-		    else:
-		       return 0
-               
-               
-		return pal
+    Stack = []
+    pal = 0
+    for i in S:
+        Stack.append(i)
+    for char in S:
+        if char == Stack.pop():
+            pal = 1
+        else:
+            return 0
 
-ans=isPalindrome('malayalam')
+    return pal
+
+
+ans = isPalindrome('malayalam')
 print(ans)

@@ -1,4 +1,4 @@
-#Two Sum Problem
+#Two Sum Problem of Leetcode
 
 class Solution(object):
     def twoSum(self, nums, target):
