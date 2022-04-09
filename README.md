@@ -1,1 +1,1 @@
-Basic Data Structure programs using Python3
+Basic Data Structure implementations using Python3
